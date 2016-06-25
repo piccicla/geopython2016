@@ -1,0 +1,36 @@
+[Ilwis]
+Description=
+Time=1466327358
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+ContainsDom=True
+[BaseMap]
+CoordSystem=Boundaries_Mamase_Grid.csy
+CoordBounds=696275.40027084982 9797373.3698004987 813822.00892024767 9884999.8213648219
+Domain=Boundaries_Mamase_Grid.mpa
+DomainInfo=Boundaries_Mamase_Grid.mpa;Int;id;285;;
+ThreeDCoordinates=No
+HistogramSize=1767993455
+Proximity=438.132257821616
+Type=PolygonMap
+AttributeTable=Boundaries_Mamase_Grid.tbt
+[Domain]
+Description=Domain Identifier "Boundaries_Mamase_Grid.mpa"
+Time=1466327356
+Version=3.1
+Class=Domain Identifier
+Width=12
+Type=DomainIdentifier
+[DomainSort]
+Sorting=AlphaNumeric
+Prefix=feature
+[DomainIdentifier]
+Nr=285
+[PolygonMapStore]
+Format=5
+DataPol=Boundaries_Mamase_Grid.mpz#
+Polygons=286
+[PolygonMap]
+Type=PolygonMapStore
+Topological=Yes

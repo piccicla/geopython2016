@@ -1,0 +1,36 @@
+[Ilwis]
+Description=
+Time=1454684530
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+ContainsDom=True
+[BaseMap]
+CoordSystem=mamase.csy
+CoordBounds=696275.40027085156 9797373.3698004987 813775.40027085156 9885123.3698004987
+Domain=vegetation.mpa
+DomainInfo=vegetation.mpa;Int;id;5583;;
+ThreeDCoordinates=No
+HistogramSize=121010620
+Proximity=438.750000000000
+Type=PolygonMap
+AttributeTable=vegetation.tbt
+[Domain]
+Description=Domain Identifier "D:\Z_MaMaSe_ilwis\Vector\Vegetetion\ILWIS3\vegetation.mpa"
+Time=1454595724
+Version=3.1
+Class=Domain Identifier
+Width=12
+Type=DomainIdentifier
+[DomainSort]
+Sorting=AlphaNumeric
+Prefix=feature
+[DomainIdentifier]
+Nr=5583
+[PolygonMapStore]
+Format=5
+DataPol=vegetation.mpz#
+Polygons=5583
+[PolygonMap]
+Type=PolygonMapStore
+Topological=Yes

@@ -1,0 +1,36 @@
+[Ilwis]
+Description=
+Time=1454917840
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+ContainsDom=True
+[BaseMap]
+CoordSystem=mamase.csy
+CoordBounds=696275.40027085133 9797373.3698004987 813822.0089202486 9884999.8205421157
+Domain=soils.mpa
+DomainInfo=soils.mpa;Byte;id;67;;
+ThreeDCoordinates=No
+HistogramSize=0
+Proximity=438.132253708085
+Type=PolygonMap
+AttributeTable=soils.tbt
+[Domain]
+Description=Domain Identifier "soils.mpa"
+Time=1454917684
+Version=3.1
+Class=Domain Identifier
+Width=12
+Type=DomainIdentifier
+[DomainSort]
+Sorting=AlphaNumeric
+Prefix=feature
+[DomainIdentifier]
+Nr=67
+[PolygonMapStore]
+Format=5
+DataPol=soils.mpz#
+Polygons=67
+[PolygonMap]
+Type=PolygonMapStore
+Topological=Yes

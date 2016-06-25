@@ -1,0 +1,36 @@
+[Ilwis]
+Description=
+Time=1466346580
+Version=3.7
+Class=ILWIS::Polygon Map
+Type=BaseMap
+ContainsDom=True
+[BaseMap]
+CoordSystem=census_livestock.csy
+CoordBounds=696275.40027084982 9797373.3698004987 813822.00892024767 9884999.8213648219
+Domain=census_livestock.mpa
+DomainInfo=census_livestock.mpa;Int;id;278;;
+ThreeDCoordinates=No
+HistogramSize=1550606702
+Proximity=438.132257821616
+Type=PolygonMap
+AttributeTable=census_livestock.tbt
+[Domain]
+Description=Domain Identifier "census_livestock.mpa"
+Time=1466346580
+Version=3.1
+Class=Domain Identifier
+Width=12
+Type=DomainIdentifier
+[DomainSort]
+Sorting=AlphaNumeric
+Prefix=feature
+[DomainIdentifier]
+Nr=278
+[PolygonMapStore]
+Format=5
+DataPol=census_livestock.mpz#
+Polygons=279
+[PolygonMap]
+Type=PolygonMapStore
+Topological=Yes

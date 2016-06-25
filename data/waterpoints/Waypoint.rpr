@@ -1,0 +1,40 @@
+[Table]
+Description=Representation Class "Waypoint"
+Time=1466359770
+Version=3.1
+Class=Table
+Domain=Waypoint.dom
+DomainInfo=Waypoint.dom;Byte;class;1;;
+Columns=1
+Records=1
+Type=TableStore
+[TableStore]
+Data=Waypoint.rp#
+UseAs=No
+Col0=Color
+Type=TableBinary
+StoreTime=1466359770
+[Col:Color]
+Description=Color
+Time=1466359770
+Version=3.1
+Class=Column
+Domain=Color.dom
+DomainInfo=Color.dom;Long;color;0;;
+ReadOnly=No
+OwnedByTable=Yes
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[Ilwis]
+Description=Representation Class "Waypoint"
+Time=1466359770
+Version=3.1
+Class=Representation Class
+Type=Representation
+[Representation]
+Domain=Waypoint.dom
+DomainInfo=Waypoint.dom;Byte;class;1;;
+BoundaryColor=0
+BoundaryWidth=1
+Type=RepresentationClass

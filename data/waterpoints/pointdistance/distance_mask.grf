@@ -1,0 +1,27 @@
+[Ilwis]
+Description=GeoReference from distance_mask.tif, using GDAL
+Time=1466362410
+Version=3.1
+Class=GeoReference Corners
+Type=GeoRef
+[GeoRef]
+CoordSystem=distance_mask.csy
+Lines=251
+Columns=312
+Type=GeoRefCorners
+[GeoRefSmpl]
+a11=0.002966358115
+a12=0.000000000000
+a21=0.000000000000
+a22=-0.002966358115
+b1=-2090.746831841504
+b2=29320.808874968567
+[GeoRefCorners]
+CornersOfCorners=Yes
+MinX=704819.428784347950
+MinY=9799831.224940357700
+MaxX=809998.907443190690
+MaxY=9884446.767066542100
+[Collection]
+NrOfItems=1
+Item0=distance_mask.ioc

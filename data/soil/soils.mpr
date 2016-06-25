@@ -1,0 +1,45 @@
+[BaseMap]
+AttributeTable=soils.tbt
+CoordSystem=mamase.csy
+CoordBounds=696275.40000000002 9797373.3700000029 813775.40000000002 9885123.3700000029
+Domain=soils.mpa
+DomainInfo=soils.mpa;Byte;id;67;;
+ThreeDCoordinates=No
+HistogramSize=0
+Type=Map
+Proximity=438.750000000000
+[Ilwis]
+Description=MapRasterizePolygon(soils.mpa,mamase.grf)
+Time=1454919476
+Version=3.1
+Class=Raster Map
+Type=BaseMap
+GeoRefChangeable=Yes
+[Map]
+GeoRef=mamase.grf
+Size=351 470
+Type=MapStore
+[IlwisObjectVirtual]
+Expression=MapRasterizePolygon(soils.mpa,mamase.grf)
+DefOnlyPossible=No
+[ObjectDependency]
+NrDepObjects=2
+Object0=soils.mpa
+Object1=mamase.grf
+[MapVirtual]
+Expression=MapRasterizePolygon(soils.mpa,mamase.grf)
+Type=MapFromPolygonMap
+[MapFromPolygonMap]
+PolygonMap=soils.mpa
+Type=MapRasterizePolygon
+[MapStore]
+StoreTime=1454919476
+Data=soils.mp#
+Structure=Line
+StartOffset=0
+RowLength=470
+PixelInterLeaved=No
+SwapBytes=No
+Type=Byte
+UseAs=No
+Format=2

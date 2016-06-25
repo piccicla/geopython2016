@@ -1,0 +1,36 @@
+[Ilwis]
+Description=Raster Map from distance_mask.tif, using GDAL, method : import 
+Time=1466362410
+Version=3.1
+Class=Raster Map
+Type=BaseMap
+[BaseMap]
+CoordSystem=distance_mask.csy
+CoordBounds=704819.42878434807 9799831.2249403577 809998.90744319081 9884446.7670665439
+Domain=Image.dom
+DomainInfo=Image.dom;Byte;image;0;;
+Range=0:255:offset=0
+ThreeDCoordinates=No
+HistogramSize=0
+Proximity=337.113713650137
+Type=Map
+MinMax=0:1
+Perc1=1:255
+[Map]
+GeoRef=distance_mask.grf
+Size=251 312
+Type=MapStore
+[MapStore]
+StoreTime=1466362411
+Data=distance_mask.mp#
+Structure=Line
+StartOffset=0
+RowLength=312
+PixelInterLeaved=No
+SwapBytes=No
+Type=Byte
+UseAs=No
+Format=2
+[Collection]
+NrOfItems=1
+Item0=distance_mask.ioc

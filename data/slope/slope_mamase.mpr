@@ -1,0 +1,32 @@
+[Ilwis]
+Description=Raster Map from slope_mamase.img, using GDAL, method : import 
+Time=1454920274
+Version=3.1
+Class=Raster Map
+Type=BaseMap
+[BaseMap]
+CoordSystem=mamase.csy
+CoordBounds=696275.40000000002 9797373.3700000029 813775.40000000002 9885123.3700000029
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=0:59:offset=-1
+ThreeDCoordinates=No
+HistogramSize=1869182051
+Proximity=250.000000000000
+Type=Map
+MinMax=-1e+308:-1e+308
+[Map]
+GeoRef=mamase.grf
+Size=351 470
+Type=MapStore
+[MapStore]
+StoreTime=1454920009
+Data=slope_mamase.mp#
+Structure=Line
+StartOffset=0
+RowLength=470
+PixelInterLeaved=No
+SwapBytes=No
+Type=Long
+UseAs=No
+Format=2

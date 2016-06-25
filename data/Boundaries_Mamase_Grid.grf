@@ -1,0 +1,24 @@
+[Ilwis]
+Description=GeoReference Corners "Boundaries_Mamase_Grid"
+Time=1466328222
+Version=3.1
+Class=GeoReference Corners
+Type=GeoRef
+[GeoRef]
+CoordSystem=Boundaries_Mamase_Grid.csy
+Lines=878
+Columns=1177
+Type=GeoRefCorners
+[GeoRefSmpl]
+a11=0.010000000000
+a12=0.000000000000
+a21=0.000000000000
+a22=-0.010000000000
+b1=-6961.987045000000
+b2=98850.865955000001
+[GeoRefCorners]
+CornersOfCorners=No
+MinX=696248.704499999990
+MinY=9797336.595499999800
+MaxX=813848.704499999990
+MaxY=9885036.595499999800

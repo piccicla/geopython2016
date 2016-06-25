@@ -1,0 +1,40 @@
+[Table]
+Description=Representation Class "soil_class"
+Time=1454917684
+Version=3.1
+Class=Table
+Domain=soil_class.dom
+DomainInfo=soil_class.dom;Byte;class;7;;
+Columns=1
+Records=7
+Type=TableStore
+[TableStore]
+Data=soil_class.rp#
+UseAs=No
+Col0=Color
+Type=TableBinary
+StoreTime=1454917684
+[Col:Color]
+Description=Color
+Time=1454917684
+Version=3.1
+Class=Column
+Domain=Color.dom
+DomainInfo=Color.dom;Long;color;0;;
+ReadOnly=No
+OwnedByTable=Yes
+StoreType=Long
+Stored=Yes
+Type=ColumnStore
+[Ilwis]
+Description=Representation Class "soil_class"
+Time=1454917684
+Version=3.1
+Class=Representation Class
+Type=Representation
+[Representation]
+Domain=soil_class.dom
+DomainInfo=soil_class.dom;Byte;class;7;;
+BoundaryColor=0
+BoundaryWidth=1
+Type=RepresentationClass

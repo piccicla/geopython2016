@@ -1,0 +1,32 @@
+[Ilwis]
+Description=Raster Map from pointdistance.tif, using GDAL, method : import 
+Time=1466360580
+Version=3.1
+Class=Raster Map
+Type=BaseMap
+[BaseMap]
+CoordSystem=pointdistance.csy
+CoordBounds=696275.40000000002 9797373.3700000029 813775.40000000002 9885123.3700000029
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=-1e+100:1e+100:0.000000:offset=0
+ThreeDCoordinates=No
+HistogramSize=0
+Proximity=250.000000000000
+Type=Map
+MinMax=0:46125.19921875
+[Map]
+GeoRef=pointdistance.grf
+Size=351 470
+Type=MapStore
+[MapStore]
+StoreTime=1466360580
+Data=pointdistance.mp#
+Structure=Line
+StartOffset=0
+RowLength=470
+PixelInterLeaved=No
+SwapBytes=No
+Type=Real
+UseAs=No
+Format=2

@@ -1,0 +1,17 @@
+[Ilwis]
+Description=
+Time=1466362410
+Version=3.1
+Class=Foreign Collection
+Type=ObjectCollection
+[ForeignFormat]
+LastStoreTime=0
+[ObjectCollection]
+Type=Foreign Collection
+NrObjects=4
+FilterTypes=0
+Object0=distance_mask.mpr
+Object1=distance_mask.csy
+Object2=distance_mask.grf
+Object3=distance_mask.his
+Method=GDAL

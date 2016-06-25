@@ -1,0 +1,45 @@
+[BaseMap]
+AttributeTable=Boundaries_Mamase_Grid.tbt
+CoordSystem=Boundaries_Mamase_Grid.csy
+CoordBounds=696198.70449999988 9797286.5954999998 813898.70449999999 9885086.5954999998
+Domain=Boundaries_Mamase_Grid.mpa
+DomainInfo=Boundaries_Mamase_Grid.mpa;Int;id;285;;
+ThreeDCoordinates=No
+HistogramSize=0
+Type=Map
+Proximity=439.000000000000
+[Ilwis]
+Description=MapRasterizePolygon(Boundaries_Mamase_Grid.mpa,Boundaries_Mamase_Grid.grf)
+Time=1466328238
+Version=3.1
+Class=Raster Map
+Type=BaseMap
+GeoRefChangeable=Yes
+[Map]
+GeoRef=Boundaries_Mamase_Grid.grf
+Size=878 1177
+Type=MapStore
+[IlwisObjectVirtual]
+Expression=MapRasterizePolygon(Boundaries_Mamase_Grid.mpa,Boundaries_Mamase_Grid.grf)
+DefOnlyPossible=No
+[ObjectDependency]
+NrDepObjects=2
+Object0=Boundaries_Mamase_Grid.mpa
+Object1=Boundaries_Mamase_Grid.grf
+[MapVirtual]
+Expression=MapRasterizePolygon(Boundaries_Mamase_Grid.mpa,Boundaries_Mamase_Grid.grf)
+Type=MapFromPolygonMap
+[MapFromPolygonMap]
+PolygonMap=Boundaries_Mamase_Grid.mpa
+Type=MapRasterizePolygon
+[MapStore]
+StoreTime=1466328238
+Data=Boundaries_Mamase_Grid.mp#
+Structure=Line
+StartOffset=0
+RowLength=1177
+PixelInterLeaved=No
+SwapBytes=No
+Type=Int
+UseAs=No
+Format=2

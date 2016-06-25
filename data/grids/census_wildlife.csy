@@ -1,0 +1,23 @@
+[Ilwis]
+Description=
+Time=1466346602
+Version=3.1
+Class=Coordinate System Projection
+Type=CoordSystem
+[Domain]
+Type=DomainCoord
+[CoordSystem]
+CoordBounds=1e+030 1e+030 -1e+030 -1e+030
+Width=28
+Decimals=2
+UnitSize=1.000000000000
+Datum=WGS 1984
+Datum Area=
+Type=Projection
+Projection=Transverse Mercator
+[Projection]
+False Easting=500000.000000000000
+False Northing=10000000.000000000000
+Central Meridian=33.000000000000
+Central Parallel=0.000000000000
+Scale Factor=0.9996000000

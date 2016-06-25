@@ -1,0 +1,24 @@
+[Ilwis]
+Description=GeoReference from pointdistance.tif, using GDAL
+Time=1466360580
+Version=3.1
+Class=GeoReference Corners
+Type=GeoRef
+[GeoRef]
+CoordSystem=pointdistance.csy
+Lines=351
+Columns=470
+Type=GeoRefCorners
+[GeoRefSmpl]
+a11=0.004000000000
+a12=0.000000000000
+a21=0.000000000000
+a22=-0.004000000000
+b1=-2785.101600000000
+b2=39540.493480000005
+[GeoRefCorners]
+CornersOfCorners=Yes
+MinX=696275.400000000020
+MinY=9797373.370000001000
+MaxX=813775.400000000020
+MaxY=9885123.370000001000

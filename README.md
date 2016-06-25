@@ -1,6 +1,7 @@
 MODELLING OF SEMI-ARID RANGELANDS FOR SUSTAINABLE MANAGEMENT WITH THE PYTHON API OF THE ILWIS GIS/RS SOFTWARE
 
 Ilwis workshop at GeoPython2016, Basel 22-24 June 2016 ,  http://www.geopython.net/
+
 Windows compatible only
 
 Look at installers/3.4/install.bat for installation instructions

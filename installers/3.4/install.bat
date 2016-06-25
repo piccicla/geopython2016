@@ -13,4 +13,6 @@ py -3.4-32 -m pip install numpy-1.11.0+mkl-cp34-cp34m-win32.whl
 
 py -3.4-32 -m pip install matplotlib-1.5.1-cp34-none-win32.whl
 
+py -3.4-32 -m pip install jupyter
+
 ILWISObjects-beta2.4-forPython3.4-32bit_h.exe

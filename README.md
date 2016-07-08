@@ -7,6 +7,7 @@ Windows compatible only
 Look at installers/3.4/install.bat for installation instructions
 
 8/7/2016 The new version of ilwisobjects is available here https://github.com/52North/IlwisCore/releases/tag/v1.0-beta3.0
+         IMPORTANT: with this new version the "import ilwisobjects as ilwis" must be renamed to "import ilwis"
 
 
 To run the interactive ipython notebook:

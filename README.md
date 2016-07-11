@@ -8,7 +8,9 @@ Look at installers/3.4/install.bat for installation instructions
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-8/7/2016: The new version of ilwisobjects is available here https://github.com/52North/IlwisCore/releases/tag/v1.0-beta3.0
+8/7/2016: The new version of ilwisobjects is now available
+
+for download/installation instructions look at https://github.com/52North/IlwisCore/wiki/ILWIS-Python-API-Tutorial
 
 IMPORTANT: with this new version all the "import ilwisobjects as ilwis" must be renamed to "import ilwis"
          

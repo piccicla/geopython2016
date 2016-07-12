@@ -1,6 +1,6 @@
 [BaseMap]
 AttributeTable=Waterpoints.tbt
-CoordSystem=C:\Python34\Scripts\geopython\data\original\mamase.csy
+CoordSystem=mamase.csy
 CoordBounds=696275.40000000002 9797373.3700000029 813775.40000000002 9885123.3700000029
 Domain=Waterpoints.mpp
 DomainInfo=Waterpoints.mpp;Int;id;397;;
@@ -9,25 +9,25 @@ HistogramSize=0
 Type=Map
 Proximity=438.750000000000
 [Ilwis]
-Description=MapRasterizePoint(Waterpoints.mpp,C:\Python34\Scripts\geopython\data\original\mamase.grf,1)
+Description=MapRasterizePoint(Waterpoints.mpp,mamase.grf,1)
 Time=1466359810
 Version=3.1
 Class=Dependent Raster Map
 Type=BaseMap
 GeoRefChangeable=Yes
 [Map]
-GeoRef=C:\Python34\Scripts\geopython\data\original\mamase.grf
+GeoRef=mamase.grf
 Size=351 470
 Type=MapVirtual
 [IlwisObjectVirtual]
-Expression=MapRasterizePoint(Waterpoints.mpp,C:\Python34\Scripts\geopython\data\original\mamase.grf,1)
+Expression=MapRasterizePoint(Waterpoints.mpp,mamase.grf,1)
 DefOnlyPossible=No
 [ObjectDependency]
 NrDepObjects=2
 Object0=Waterpoints.mpp
-Object1=C:\Python34\Scripts\geopython\data\original\mamase.grf
+Object1=mamase.grf
 [MapVirtual]
-Expression=MapRasterizePoint(Waterpoints.mpp,C:\Python34\Scripts\geopython\data\original\mamase.grf,1)
+Expression=MapRasterizePoint(Waterpoints.mpp,mamase.grf,1)
 Type=MapFromPointMap
 [MapFromPointMap]
 PointMap=Waterpoints.mpp

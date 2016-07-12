@@ -9,10 +9,13 @@ python-3.4.4.msi
 rem this will install vs c++ 2010 redistributable, necessary for some python libraries based on compiled c/c++ code (e.g. num py)
 vcredist_x86.exe
 
-py -3.4-32 -m pip install numpy-1.11.0+mkl-cp34-cp34m-win32.whl
+rem updating pip may be necessary to install numpy/matplotlib
+py -3.4-32 -m pip install -U pip
 
-py -3.4-32 -m pip install matplotlib-1.5.1-cp34-none-win32.whl
+py -3.4-32 -m pip install numpy-1.11.1+mkl-cp34-cp34m-win32.whl
+
+py -3.4-32 -m pip install matplotlib-1.5.2-cp34-cp34m-win32.whl
 
 py -3.4-32 -m pip install jupyter
 
-ILWISObjects-beta2.4-forPython3.4-32bit_h.exe
+ILWISObjects-beta3.0-forPython3.4-32bit.exe
